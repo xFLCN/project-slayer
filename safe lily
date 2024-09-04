@@ -23,7 +23,7 @@ local Player = Players.LocalPlayer;
 local chr = Player.Character
 local root = chr.HumanoidRootPart
 
-local TeleportSpeed = 150;
+local TeleportSpeed = 220;
 local NextFrame = RunService.Heartbeat;
 
 local function fireproximityprompt(ProximityPrompt, Amount, Skip)
